@@ -1,0 +1,25 @@
+package kr.co.icia.vrp.semi.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+@Controller
+public class MainController {
+  
+  @Autowired
+  private NodeService nodeService;
+
+  @GetMapping("/main")
+  public String getMain() {
+    return "main";
+  }
+  
+  @GetMapping("/poi")
+  @ResponseBody
+  public JsonResult getPoi(@RequestParam double x, @RequestParam double y) {
+    return new JsonResult();
+  }
+
+}
