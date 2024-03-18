@@ -8,7 +8,13 @@
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="getAdddress"/>
+			<item value="point"/>
 			<item value="adddress"/>
+			<item value="address"/>
+			<item value="KakaoDirections"/>
+			<item value="Kakao"/>
+			<item value="searchPoi"/>
 			<item value="vrpService"/>
 		</list>
 		<list key="replacehistory">

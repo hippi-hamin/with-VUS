@@ -14,7 +14,6 @@
     <insert id="insert" parameterType="Node">
         /* 노드 등록 */
         INSERT INTO node (
-               id,
                name,
                address,
                phone,
@@ -23,7 +22,6 @@
                reg_dt,
                mod_dt
              ) VALUES (
-               #{entity.id},
                #{entity.name},
                #{entity.address},
                #{entity.phone},

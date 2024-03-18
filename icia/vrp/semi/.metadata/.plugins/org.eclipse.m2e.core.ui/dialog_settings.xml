@@ -2,8 +2,8 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
-			<item value="/Users/hamin/Documents/workspace/icia-map-line"/>
 			<item value="/Users/hamin/Documents/workspace/icia/vrp/generate-mybatis-source-master"/>
+			<item value="/Users/hamin/Documents/workspace/icia-map-line"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
